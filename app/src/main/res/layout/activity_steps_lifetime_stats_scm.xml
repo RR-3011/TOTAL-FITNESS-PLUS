@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".StepCountingModule.StepsLifetimeStats_SCM">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="TRACK YOUR STEPS"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/totalStepsLT_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="TOTAL STEPS"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/totalcaloriesLT_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="TOTAL CALORIES BURNT"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/totalDistanceLT_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="TOTAL DISTANCE"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/clearStats_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="CLEAR STATS"
+        android:textSize="24sp" />
+</LinearLayout>

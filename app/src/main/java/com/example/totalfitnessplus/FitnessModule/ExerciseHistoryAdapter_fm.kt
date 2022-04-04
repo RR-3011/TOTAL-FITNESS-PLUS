@@ -1,0 +1,67 @@
+package com.example.totalfitnessplus.FitnessModule
+
+import android.content.Context
+import android.graphics.Color
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import android.widget.LinearLayout
+import android.widget.TextView
+import androidx.recyclerview.widget.RecyclerView
+import com.example.totalfitnessplus.R
+
+
+// TODO(Step 2 : Created a adapter class to bind the to RecyclerView to show the list of completed dates in History Screen.)
+// START
+class HistoryAdapter(val context: Context, val items: ArrayList<String>) :
+    RecyclerView.Adapter<HistoryAdapter.ViewHolder>() {
+
+
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
+        return ViewHolder(
+            LayoutInflater.from(context).inflate(
+                R.layout.item_history_row,
+                parent,
+                false
+            )
+        )
+    }
+
+
+    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
+
+        val date: String = items.get(position)
+
+        holder.tvPosition.text = (position + 1).toString()
+        holder.tvItem.text = date
+
+        // Updating the background color according to the odd/even positions in list.
+        if (position % 2 == 0) {
+            holder.llHistoryItemMain.setBackgroundColor(
+                Color.parseColor("#EBEBEB")
+            )
+        } else {
+            holder.llHistoryItemMain.setBackgroundColor(
+                Color.parseColor("#FFFFFF")
+            )
+        }
+    }
+
+    /**
+     * Gets the number of items in the list
+     */
+    override fun getItemCount(): Int {
+        return items.size
+    }
+
+    /**
+     * A ViewHolder describes an item view and metadata about its place within the RecyclerView.
+     */
+    class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
+        // Holds the TextView that will add each item to
+        val llHistoryItemMain = view.findViewById<LinearLayout>(R.id.ll_history_item_main)!!
+        val tvItem = view.findViewById<TextView>(R.id.tvItem)!!
+        val tvPosition = view.findViewById<TextView>(R.id.tvPosition)!!
+    }
+}
+// END

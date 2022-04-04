@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/drawable-v24/btn_background.xml" value="0.2557291666666667" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2064814814814815" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/drawable/border_image.xml" value="0.232" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/drawable/circular_border_color_fm.xml" value="0.21851851851851853" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/drawable/circular_color_background.xml" value="0.21851851851851853" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/drawable/circular_color_border_fm.xml" value="0.21851851851851853" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/drawable/circular_progress_bar.xml" value="0.2713541666666667" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/drawable/circular_progress_bar_fm.xml" value="0.19444444444444445" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/drawable/circular_progress_gray.xml" value="0.19479166666666667" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/drawable/drawable_units_tab_selector.xml" value="0.2713541666666667" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/drawable/drawable_units_tab_text_color_selector.xml" value="0.2713541666666667" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/drawable/gray_circular_progress_bar_fm.xml" value="0.19444444444444445" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/drawable/ic_face_24.xml" value="0.2713541666666667" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/drawable/ic_launcher_background.xml" value="0.21851851851851853" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/drawable/item_circular_color_accent_background.xml" value="0.2713541666666667" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/drawable/item_circular_color_accent_border.xml" value="0.2713541666666667" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/drawable/item_circular_color_background.xml" value="0.20092592592592592" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/drawable/item_circular_color_gray_background.xml" value="0.24351851851851852" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/drawable/item_color_accent_border_ripple_background.xml" value="0.2713541666666667" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/drawable/item_exercise_status.xml" value="0.24351851851851852" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/layout/activity_alarm.xml" value="0.18" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/layout/activity_bmifm.xml" value="0.2552083333333333" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/layout/activity_destination_am.xml" value="0.22509057971014493" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/layout/activity_exercise_fm.xml" value="0.25" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/layout/activity_exercise_history_fm.xml" value="0.2552083333333333" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/layout/activity_final_fm.xml" value="0.2552083333333333" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/layout/activity_overall_step_counting_stats_scm.xml" value="0.184375" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/layout/activity_profile.xml" value="0.2552083333333333" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/layout/activity_sign_in.xml" value="0.22" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/layout/activity_splash.xml" value="0.24592391304347827" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/layout/activity_start_fm.xml" value="0.2552083333333333" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/layout/activity_start_scm.xml" value="0.22056159420289856" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/layout/activity_stats_scm.xml" value="0.25" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/layout/activity_steps_lifetime_stats_scm.xml" value="0.23958333333333334" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/layout/activity_user_steps_stats_scm.xml" value="0.1766304347826087" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/layout/border_image.xml" value="0.22552083333333334" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/layout/dialog_custom_back_confirmation.xml" value="0.2552083333333333" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/layout/item_exercise_status.xml" value="0.2552083333333333" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/layout/item_history_row.xml" value="0.2552083333333333" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/layout/stats_cardview_item.xml" value="0.2552083333333333" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.19479166666666667" />
+        <entry key="..\:/TOTALFITNESSPLUS/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.19479166666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

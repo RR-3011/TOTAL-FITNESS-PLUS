@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginModule.SignUpActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg_image"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:padding="10dp"
+        android:fontFamily="@font/bowlby_one_sc"
+        android:text="CREATE A NEW ACCOUNT"
+        android:textColor="@color/black"
+        android:background="@color/main_color"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/firstnameTV_signUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/bowlby_one_sc"
+        android:hint="ENTER YOUR FIRST NAME"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/lastname_tv_signUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/bowlby_one_sc"
+        android:hint="ENTER YOUR LAST NAME"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/emailTV_signUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/bowlby_one_sc"
+        android:hint="ENTER YOUR E-MAIL ID"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/passwordTV_signUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/bowlby_one_sc"
+        android:hint="ENTER YOUR PASSWORD"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/signUpbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/bowlby_one_sc"
+        android:text="SIGN UP"
+        android:padding="15dp"
+        android:background="@color/black"
+        android:textColor="@color/main_color"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/alreadyHaveAccountTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/bowlby_one_sc"
+        android:text="CLICK HERE IF YOU ALREADY HAVE AN ACCOUNT"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+</LinearLayout>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_image"
+    tools:context=".StepCountingModule.StartActivitySCM">
+
+
+
+    <TextView
+        android:id="@+id/tvHeader"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bowlby_one_sc"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="THERE ARE NO LIMITS.."
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/linearStats_scm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvSteps"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+
+        <!--        <TextView-->
+<!--            android:id="@+id/statsTV_scm"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="30dp"-->
+<!--            android:fontFamily="@font/bowlby_one_sc"-->
+<!--            android:text="STATS"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="16sp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/totalStepsTV_scm"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="20dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:fontFamily="@font/bowlby_one_sc"-->
+<!--            android:text="TextView"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="16sp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/totalCaloriesTV_scm"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="20dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:fontFamily="@font/bowlby_one_sc"-->
+<!--            android:text="TextView"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="16sp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/totalDistanceTV_scm"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="20dp"-->
+<!--            android:fontFamily="@font/bowlby_one_sc"-->
+<!--            android:text="TextView"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="16sp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/starttimeDateTV_scm"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="20dp"-->
+<!--            android:fontFamily="@font/bowlby_one_sc"-->
+<!--            android:text="TextView"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="16sp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/endtimeDateTV_scm"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="20dp"-->
+<!--            android:fontFamily="@font/bowlby_one_sc"-->
+<!--            android:text="TextView"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="16sp" />-->
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tvHeader"
+        android:background="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/tvSteps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvHeader"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/bowlby_one_sc"
+        android:gravity="center"
+        android:textColor="@color/main_color"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/tvHeader"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn_background"
+        android:fontFamily="@font/bowlby_one_sc"
+        android:text="START COUNTING STEPS"
+        android:textColor="@color/main_color" />
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/btnStart"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn_background"
+        android:fontFamily="@font/bowlby_one_sc"
+        android:text="STOP COUNTING STEPS"
+        android:textColor="@color/main_color" />
+
+    <Button
+        android:id="@+id/main_menu_scm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnStop"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/main_color"
+        android:fontFamily="@font/bowlby_one_sc"
+        android:gravity="center"
+        android:text="RETURN TO MAIN MENU"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/showStatsButton_scm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_menu_scm"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/main_color"
+        android:fontFamily="@font/bowlby_one_sc"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingTop="30dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="30dp"
+        android:text="SHOW STATS OF THE CURRENT SESSION"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+
+    <ImageView
+        android:id="@+id/appLogo_iv_scm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/tfp_app_logo" />
+
+</RelativeLayout>
