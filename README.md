@@ -21,5 +21,5 @@ d.jpg)
 ![ttp-10](https://user-images.githubusercontent.com/102804255/161829629-97dd2f87-1cde-4b4d-b5c8-09aef80cdbd6.jpg)
 c5
 ![ttp-11](https://user-images.githubusercontent.com/102804255/161829684-fdc176bf-102b-4405-92a7-e3c6c4651d0c.jpg)
-![ttp-12](https://user-images.githubusercontent.com/102804255/161829740-16d01817-c0ce-448d-bd02-66d22537b072.jpg)
+
 
